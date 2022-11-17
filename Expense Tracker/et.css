@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+}
+.ie{ 
+    background-color: aquamarine;
+    box-shadow:4px 4px 4px  grey;
+ margin-left: 100px;
+    margin-right: 100px;
+
+}

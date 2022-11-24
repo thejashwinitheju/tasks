@@ -6,4 +6,6 @@ let user = {
 }
 let salt = bcrypt.genSaltSync(10);
 let newPassword = bcrypt.hashSync(user.password, salt);
+let newEmail = bcrypt.hashSync(user.email, salt)
 console.log(newPassword)
+console.log(newEmail)
